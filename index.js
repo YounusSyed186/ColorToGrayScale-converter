@@ -217,7 +217,7 @@ let dark = false;
 function darkMode(){
 	
 	if(dark == false){
-		document.querySelector('.text').classList.add('text-white') //Title
+		document.querySelector('title').classList.add('text-white') //Title
 
 		//Background
 		document.documentElement.style.backgroundColor = 'black';
@@ -242,7 +242,7 @@ function darkMode(){
 		dark = true;
 	}else{
 
-		document.querySelector('.text').classList.remove('text-white') //Title
+		document.querySelector('title').classList.remove('text-white') //Title
 
 		//Background
 		document.documentElement.style.backgroundColor = 'white';
