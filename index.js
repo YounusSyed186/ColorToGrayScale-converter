@@ -176,7 +176,6 @@ const lValue = document.getElementById('l-value');
 
 const hexValue = document.getElementById('hex-value');
 const luminValue = document.getElementById('lumin-value');
-
 // =============== action starts here ===============
 
 colorPicker.addEventListener('input', function() {
@@ -217,7 +216,8 @@ let dark = false;
 function darkMode(){
 	
 	if(dark == false){
-		document.querySelector('title').classList.add('text-white') //Title
+		document.getElementById('title').style.color = 'white';//Title
+		
 
 		//Background
 		document.documentElement.style.backgroundColor = 'black';
@@ -242,7 +242,7 @@ function darkMode(){
 		dark = true;
 	}else{
 
-		document.querySelector('title').classList.remove('text-white') //Title
+		document.getElementById('title').style.color = 'rgb(100, 116, 139)';//Title
 
 		//Background
 		document.documentElement.style.backgroundColor = 'white';
