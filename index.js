@@ -185,12 +185,6 @@ colorPicker.addEventListener('input', function() {
 	const HSL = RGB_HSL(RGB[0], RGB[1], RGB[2]);
 	const CMYK = RGB_CMYK(RGB[0], RGB[1], RGB[2]);
 	
-	console.log(HEX)
-	console.log(RGB)
-	console.log(HSL)
-	console.log(CMYK)
-
-	
 	rValue.textContent = RGB[0];
 	gValue.textContent = RGB[1];
 	bValue.textContent = RGB[2];
