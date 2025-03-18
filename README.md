@@ -32,3 +32,10 @@ rgb(average, average, average) // see what we did here?
 ## Preview
 
 ![preview](./docs/preview.png)
+
+>contrututer (https://github.com/YounusSyed186)
+ Added **HSL and CMYK** values for grayscale.
+- Updated preview and details with the new functionality.
+- Instructions to run locally.
+
+You're all set! 🚀 Let me know if everything looks good or if you need more modifications!
